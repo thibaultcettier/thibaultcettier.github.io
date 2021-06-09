@@ -1,0 +1,38 @@
+Last login: Wed Jun  9 16:10:35 on ttys000
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ ls
+Applications	Downloads	Music		Public		save.rymdresa
+Desktop		Library		My Games	Zomboid
+Documents	Movies		Pictures	dwhelper
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ ls .
+Applications	Downloads	Music		Public		save.rymdresa
+Desktop		Library		My Games	Zomboid
+Documents	Movies		Pictures	dwhelper
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ ls -a
+.			.local			Movies
+..			.putty			Music
+.CFUserTextEncoding	.rnd			My Games
+.DS_Store		.subversion		Pictures
+.Trash			.vscode			Public
+.bash_history		Applications		Zomboid
+.bash_sessions		Desktop			dwhelper
+.cache			Documents		save.rymdresa
+.config			Downloads
+.gitconfig		Library
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ ls /home
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ ls ..
+Guest		Shared		Thibaultcettier
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ ls /bin
+[		df		launchctl	pwd		tcsh
+bash		domainname	link		rcp		test
+cat		echo		ln		rm		unlink
+chmod		ed		ls		rmdir		wait4path
+cp		expr		mkdir		sh		zsh
+csh		hostname	mv		sleep
+date		kill		pax		stty
+dd		ksh		ps		sync
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ pwd
+/Users/Thibaultcettier
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ cd
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ cd ..
+MacBook-Pro-de-Thibault:Users Thibaultcettier$ cd ~/Music
+MacBook-Pro-de-Thibault:Music Thibaultcettier$ 
