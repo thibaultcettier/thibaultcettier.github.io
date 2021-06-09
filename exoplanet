@@ -1,0 +1,29 @@
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mkdir planets/real
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mkdir planets/fictional
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mkdir planets/inhabited
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mkdir planets/real/terrestrial
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mkdir planets/real/gas-giants
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mkdir planets/real/dwarf-planets
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/mercury.jpeg planets/real/mercury.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/mercury.jpeg planets/real/mercury.jpeg
+mv: planets/mercury.jpeg: No such file or directory
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/earth.jpeg planets/real/earth.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/pluto.jpeg planets/real/pluto.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/jupiter.jpeg planets/real/jupiter.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/venus.jpeg planets/real/venus.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/mars.jpeg planets/real/mars.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/uranus.jpeg planets/real/uranus.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/neptune.jpeg planets/real/neptune.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/saturn.jpeg planets/real/saturn.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/arrakis.jpeg planets/fictional/arrakis.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/cybertron.jpeg planets/fictional/cybertron.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ mv planets/coruscant.jpeg planets/fictional/coruscant.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ cp planets/real/earth.jpeg planets/inhabited/earth.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ cp planets/fictional/arrakis.jpeg planets/inhabited/arrakis.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ cp planets/fictional/cybertron.jpeg planets/inhabited/cybertron.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ cp planets/fictional/coruscant.jpeg planets/inhabited/coruscant.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ rm planets/real/pluto.jpeg
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ 
+MacBook-Pro-de-Thibault:~ Thibaultcettier$ find
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
